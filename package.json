@@ -12,7 +12,7 @@
     "url": "https://github.com/soal/vue-mapbox.git"
   },
   "private": false,
-  "main": "dist/vue-mapbox.umd.js",
+  "main": "dist/vue-mapbox.js",
   "module": "src/main.js",
   "scripts": {
     "build:umd": "rollup -c ./rollup.config.umd.js",
@@ -36,7 +36,7 @@
     "map-promisified": "latest"
   },
   "peerDependencies": {
-    "mapbox-gl": "^1.12.0",
+    "mapbox-gl": "^2.11.0",
     "vue": "^2.6.7"
   },
   "devDependencies": {
